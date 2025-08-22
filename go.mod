@@ -2,8 +2,6 @@ module yunion.io/x/kubecomps
 
 go 1.21
 
-toolchain go1.24.3
-
 require (
 	github.com/Masterminds/semver/v3 v3.1.0
 	github.com/Masterminds/sprig v2.22.0+incompatible
@@ -291,6 +289,7 @@ replace (
 	k8s.io/component-base => k8s.io/component-base v0.19.3
 	k8s.io/cri-api => k8s.io/cri-api v0.19.3
 	k8s.io/csi-translation-lib => k8s.io/csi-translation-lib v0.19.3
+	k8s.io/klog/v2 => k8s.io/klog/v2 v2.3.0
 	k8s.io/kube-aggregator => k8s.io/kube-aggregator v0.19.3
 	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.19.3
 	k8s.io/kube-proxy => k8s.io/kube-proxy v0.19.3
